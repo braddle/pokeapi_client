@@ -1,0 +1,26 @@
+{
+  "name": "braddle/pokeapi-client",
+  "description": "A client library to access the services of the PokeAPI Version 2 (http://pokeapi.co/docsv2)",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mark Bradley",
+      "email": "mark@mark-bradley.net"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Braddle\\PokeApi\\": "src/"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "6.2.0"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "2.5.0",
+    "squizlabs/php_codesniffer": "2.6.0",
+    "behat/behat": "3.1.x-dev",
+    "phpmd/phpmd": "2.4.3"
+  }
+}
